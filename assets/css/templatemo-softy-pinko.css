@@ -637,6 +637,7 @@ welcome
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
+  widows: 100%;
   height: 100vh;
 }
 
@@ -663,6 +664,7 @@ welcome
   color: #fff;
   line-height: 28px;
   letter-spacing: 0.25px;
+  width: 100%;
   margin-bottom: 40px;
   position: relative;
 }
@@ -706,6 +708,7 @@ welcome
 @media (max-width: 765px) {
   .welcome-area {
     margin-bottom: 100px;
+    margin: 0px;
   }
   .welcome-area .header-text {
     top: 50% !important;
@@ -1594,4 +1597,7 @@ preloader
   background-color: chartreuse;
   max-width: 25vh;
   height: 8vh;
+}
+.company-name h1 {
+  font-family: 'Pangolin', cursive;
 }
