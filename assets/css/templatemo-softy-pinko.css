@@ -397,7 +397,11 @@ header
 .site-header { 
   border-bottom: 1px solid #ccc;
   height: 130px;
-  background-color: rgb(253, 201, 210);
+  animation: mymove 1s infinite;
+}
+@keyframes mymove {
+  from {background-color: rgb(255, 230, 0);}
+  to {background-color: rgb(229, 255, 0);}
 }
 
 .site-header::after {
@@ -1606,4 +1610,66 @@ preloader
 }
 .company-name h1 {
   font-family: 'Pangolin', cursive;
+}
+.awesome {
+      
+  font-family: 'Pangolin', cursive;
+  -webkit-animation:colorchange 2s infinite alternate;
+  
+  
+}
+@-webkit-keyframes colorchange {
+  0% {
+
+    color: rgb(252, 247, 0);
+  }
+
+  10% {
+
+    color: #fbff0b;
+  }
+
+  20% {
+
+    color: #eef120;
+  }
+
+  30% {
+
+    color: #f4f807;
+  }
+
+  40% {
+
+    color: rgb(207, 252, 7);
+  }
+
+  50% {
+
+    color: #ffee00;
+  }
+
+  60% {
+
+    color: rgb(238, 255, 0);
+  }
+
+  70% {
+
+    color: #ffd900;
+  }
+  80% {
+
+    color: #f1c40f;
+  }
+
+  90% {
+
+    color: #eeea06;
+  }
+
+  100% {
+
+    color: rgb(251, 255, 0);
+  }
 }
