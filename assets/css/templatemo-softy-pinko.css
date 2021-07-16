@@ -1594,9 +1594,15 @@ preloader
   margin-top: 15px;
   border-radius: 4px;
   border: none;
-  background-color: chartreuse;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 0 2px rgb(22, 22, 22);
   max-width: 25vh;
   height: 8vh;
+}
+.nav-button-li button:hover{
+  background-color: rgb(253, 253, 161);
+  box-shadow: 5px #666;
 }
 .company-name h1 {
   font-family: 'Pangolin', cursive;
