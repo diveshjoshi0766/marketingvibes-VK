@@ -401,7 +401,7 @@ header
 }
 @keyframes mymove {
   from {background-color: rgb(255, 230, 0);}
-  to {background-color: rgb(229, 255, 0);}
+  to {background-color: rgb(255, 230, 0);}
 }
 
 .site-header::after {
@@ -722,9 +722,10 @@ welcome
   .welcome-area .header-text .buttons {
     display: none;
   }
-  .welcome-area .header-text h1 {
+  .welcome-area .header-text .awesome {
     font-weight: 600;
-    font-size: 24px !important;
+    width: 100%;
+    font-size: 29px !important;
     line-height: 30px !important;
     margin-bottom: 30px !important;
   }
@@ -1609,11 +1610,11 @@ preloader
   box-shadow: 5px #666;
 }
 .company-name h1 {
-  font-family: 'Pangolin', cursive;
+  /* font-family: 'Pangolin', cursive; */
 }
 .awesome {
       
-  font-family: 'Pangolin', cursive;
+  /* font-family: 'Pangolin', cursive; */
   -webkit-animation:colorchange 2s infinite alternate;
   
   
@@ -1641,7 +1642,7 @@ preloader
 
   40% {
 
-    color: rgb(207, 252, 7);
+    color: rgb(252, 248, 7);
   }
 
   50% {
@@ -1651,7 +1652,7 @@ preloader
 
   60% {
 
-    color: rgb(238, 255, 0);
+    color: rgb(251, 255, 0);
   }
 
   70% {
@@ -1660,7 +1661,7 @@ preloader
   }
   80% {
 
-    color: #f1c40f;
+    color: #ffee00;
   }
 
   90% {
